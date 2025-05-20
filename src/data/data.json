@@ -1,0 +1,117 @@
+{
+  "Header": {
+    "title": "PROTECTING IDENTITIES. SECURING ACCESS. EMPOWERING TRUST.",
+    "paragraph": "Specializing in Identity & Access Management and Cyber Defense Solutions."
+  },
+  "About": {
+    "paragraph": "With over 16 years of experience, JM Consultancy specializes in designing and implementing large-scale Identity & Access Management solutions. We are experts in Microsoft Entra ID, SailPoint, Okta, and cybersecurity compliance strategies, delivering modern cloud security and Zero Trust architectures for enterprises globally.",
+    "Why": [
+      "Industry-Focused Expertise",
+      "Client-Centric Approach",
+      "Proven Problem-Solvers",
+      "Agile & Scalable Delivery"
+    ],
+    "Why2": []
+  },
+  "Services": [
+    {
+      "icon": "fa fa-lock",
+      "name": "Cybersecurity Risk Assessment",
+      "text": "We identify vulnerabilities across your infrastructure and recommend practical steps to harden your security posture."
+    },
+    {
+      "icon": "fa fa-user-secret",
+      "name": "Identity & Access Management",
+      "text": "Design and deployment of secure IAM solutions—Single Sign-On (SSO), Multi-Factor Authentication (MFA), Role-Based Access Control (RBAC), and Privileged Access Management (PAM)."
+    },
+    {
+      "icon": "fa fa-shield",
+      "name": "Security Architecture Design",
+      "text": "We build scalable, future-proof architectures that embed security from the ground up."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments",
+      "title": "End-to-End Identity",
+      "text": "We design, deploy, and maintain secure IAM systems tailored to your business, ensuring only the right people access the right resources."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Zero Trust Framework",
+      "text": "We help organizations adopt a modern security model built on strict access controls and continuous verification—no assumptions, no compromises."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Seamless Integration",
+      "text": "Our solutions are compatible with all major cloud providers, SaaS platforms, and enterprise environments."
+    },
+    {
+      "icon": "fa fa-users",
+      "title": "Regulatory Compliance",
+      "text": "We ensure your systems align with global cybersecurity standards like ISO 27001, NIST, GDPR, and others."
+    }
+  ]
+}
