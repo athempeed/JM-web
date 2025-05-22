@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { toast } from 'react-toastify';
+import emailjs from "emailjs-com";
 
 const initialState = {
   name: "",
@@ -10,39 +11,32 @@ const initialState = {
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
-  
-  
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    
-    try {
-      const response = await fetch('http://localhost:5000/api/email/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({          
-          subject: `Contact From - ${email}`,
-          body: message,
-        }),
-      });
 
- 
-      if (response.ok) {        
-        toast.success('Email sent successfully!');
-      } else {
-        toast.error(`Failed to send email: ${response.statusText}`);
-      }
-    } catch (error) {
-       toast.error(`Error: ${error.message}`);
-    }
-  };
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setState((prevState) => ({ ...prevState, [name]: value }));
+    };
+    const clearState = () => setState({ ...initialState });
+
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      console.log(name, email, message);
+
+      emailjs
+        .sendForm("service_l9uj6b9", "template_x3reatk", e.target, "Yawfaofskhwps-_9a")
+        .then(
+          (result) => {
+            toast.success('Email sent successfully!');
+            console.log(result.text);
+            clearState();
+          },
+          (error) => {
+            console.log(error.text);
+            toast.error(`Error: ${error.text}`);
+          }
+        );
+    };
   return (
     <div>
       <div id="contact">
